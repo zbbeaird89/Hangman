@@ -6,3 +6,4 @@ end
 
 require_relative "hangman/cell.rb"
 require_relative "hangman/word.rb"
+require_relative "hangman/game.rb"
