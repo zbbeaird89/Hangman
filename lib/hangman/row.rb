@@ -1,10 +1,10 @@
 module Hangman
 	class Row
-		attr_accessor :dashes
+		attr_accessor :cells
 		def initialize(string)
-			@dashes = string.split("").map do |letter|
+			@cells = string.split("").map do |letter|
 				if letter =~ /\w/
-					"_"
+					Cell.new("_")
 				else
 					" "
 				end
