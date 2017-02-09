@@ -1,0 +1,28 @@
+--- !ruby/object:Hangman::Game
+word: !ruby/object:Hangman::Word
+  value: STYGIAN
+row: !ruby/object:Hangman::Row
+  cells:
+  - !ruby/object:Hangman::Cell
+    value: _
+  - !ruby/object:Hangman::Cell
+    value: _
+  - !ruby/object:Hangman::Cell
+    value: _
+  - !ruby/object:Hangman::Cell
+    value: _
+  - !ruby/object:Hangman::Cell
+    value: I
+  - !ruby/object:Hangman::Cell
+    value: A
+  - !ruby/object:Hangman::Cell
+    value: _
+used_letters:
+- E
+- A
+- I
+- O
+- U
+- F
+- L
+tries_left: 6

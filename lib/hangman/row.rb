@@ -21,10 +21,8 @@ module Hangman
 			end
 		end
 
-		private
-
-		def set_cell(value, i)
-			@cells[i].value = value
+		def set_cell(input, i)
+			@cells[i].value = input
 		end
 
 	end

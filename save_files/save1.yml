@@ -1,0 +1,22 @@
+--- !ruby/object:Hangman::Game
+word: !ruby/object:Hangman::Word
+  value: FONDU
+row: !ruby/object:Hangman::Row
+  cells:
+  - !ruby/object:Hangman::Cell
+    value: _
+  - !ruby/object:Hangman::Cell
+    value: O
+  - !ruby/object:Hangman::Cell
+    value: _
+  - !ruby/object:Hangman::Cell
+    value: _
+  - !ruby/object:Hangman::Cell
+    value: U
+used_letters:
+- E
+- A
+- I
+- U
+- O
+tries_left: 13
